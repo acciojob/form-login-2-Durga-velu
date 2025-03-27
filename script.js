@@ -8,7 +8,7 @@ let email=document.getElementById("emailId")
 document.getElementById("submit").addEventListener("click",()=>{
 
 
-alert(`First Name: ${firstName.value} Last Name: ${lastName.value} Phone Number: ${phoneNumber.value} Email ID: ${email.value}`)
+window.alert(`First Name: ${firstName.value} Last Name: ${lastName.value} Phone Number: ${phoneNumber.value} Email ID: ${email.value}`)
 
 
 })
